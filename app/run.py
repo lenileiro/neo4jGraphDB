@@ -1,7 +1,7 @@
 from py2neo import Graph , Node, Relationship
 
 user="neo4j"
-pwd="pass"
+pwd="neo4j"
 
 graph = Graph(auth=(user, pwd))
 alice = Node("Person", name="Alice")
